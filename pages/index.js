@@ -14,7 +14,7 @@ export default () => {
   return (
     <main>
       <Header>
-        <Logo height="100" width="100" fill="#444"/>        
+        <Logo height="100" width="100" fill="#e4e4e4"/>        
         <Postcast> Postcast </Postcast>        
       </Header>
     </main>  
@@ -25,12 +25,10 @@ const Header = styled.header`
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
-  background: #fafafa;
   padding: 40px;
 `
 const Postcast = styled.div`
   font-family: Damion;
-  font-size: 92px;
-  color: #444;
+  font-size: 42px;
+  color: #181818;
 `
