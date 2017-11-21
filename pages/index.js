@@ -13,9 +13,9 @@ if (typeof window !== 'undefined') {
 export default () => {
   return (
     <main>
-      <Header>      
-        <Postcast> Postcast </Postcast>
-        <Logo height="200" width="200" fill="#444"/>
+      <Header>
+        <Logo height="100" width="100" fill="#444"/>        
+        <Postcast> Postcast </Postcast>        
       </Header>
     </main>  
   )
@@ -27,10 +27,10 @@ const Header = styled.header`
   flex-direction: column;
   height: 100vh;
   background: #fafafa;
+  padding: 40px;
 `
 const Postcast = styled.div`
   font-family: Damion;
-  font-size: 32px;
-  align-self: flex-start;
+  font-size: 92px;
+  color: #444;
 `
-
