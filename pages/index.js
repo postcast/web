@@ -14,8 +14,8 @@ export default () => {
   return (
     <main>
       <Header>
-        <Logo size="250" fill="#e4e4e4"/>        
-        <Postcast> Postcast </Postcast>        
+        <Logo size="250" fill="#e4e4e4"/>
+        <Postcast> Postcast </Postcast>
       </Header>
     </main>
   )
